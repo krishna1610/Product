@@ -1,6 +1,6 @@
 import React from "react";
 
-class AppHeaderLabels extends React.Component {
+class AppHeaderLabel extends React.Component {
   render() {
     return (
       <a className="py-2 d-none d-md-inline-block" href="#">
@@ -10,4 +10,4 @@ class AppHeaderLabels extends React.Component {
   }
 }
 
-export default AppHeaderLabels;
+export default AppHeaderLabel;

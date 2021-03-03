@@ -1,5 +1,5 @@
 import React from "react";
-import AppHeaderLabels from "./AppHeaderLabels";
+import AppHeaderLabel from "./AppHeaderLabel";
 import AppHeaderLogo from "./AppHeaderLogo";
 
 class AppHeader extends React.Component {
@@ -23,7 +23,7 @@ class AppHeader extends React.Component {
         <nav className="container d-flex flex-column flex-md-row justify-content-between">
           <AppHeaderLogo />
           {this.state.links.map((name) => {
-            return <AppHeaderLabels label={name} />;
+            return <AppHeaderLabel label={name} />;
           })}
         </nav>
       </header>
